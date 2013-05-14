@@ -13,13 +13,14 @@ import (
 	"crypto/sha256"
 	"crypto/subtle"
 	"encoding/base64"
-	"encoding/json"
 	"errors"
 	"fmt"
 	"hash"
 	"io"
 	"strconv"
 	"time"
+
+	"json"
 )
 
 // Codec defines an interface to encode and decode cookie values.
